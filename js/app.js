@@ -42,7 +42,7 @@ function cargarNombres(e){
             // Generar el HTML
             let htmlNombres = '<h2>Nombres Generados</h2>';
 
-            htmlNombres += '<ul class=""';
+            htmlNombres += '<ul class="lista"';
 
             // Imprimir cada Nombre
             nombres.forEach(function (nombre) {
